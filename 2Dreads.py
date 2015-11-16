@@ -13,11 +13,11 @@ dir=sys.argv[1]
 fns=glob(dir+'/*.fast5')
 
 try:
-    os.mkdir(dir+'/2D’)
+    os.mkdir(dir+'/2D')
 except:
     pass
 try:
-    os.mkdir(dir+’/1D’)
+    os.mkdir(dir+'/1D')
 except:
     pass
 
