@@ -25,9 +25,11 @@ except:
 for fp in fns:
     fn=fp.split('/')[-1]
     f=h5py.File(fp,'r')
-    if 'BaseCalled_2D' in f['Analyses']['Basecall_2D_000'].keys():
-        os.symlink('../'+fn, dir+'/2D/‘+fn)
+    if 'Basecall_2D_000' in f['Analyses'].keys():
+       if 'BaseCalled_2D' in f['Analyses']['Basecall_2D_000'].keys():
+		os.symlink('../'+fn, dir+'/2D/'+fn)
     else:
-        os.symlink('../'+fn, dir+’/1D/‘+fn)
+        os.symlink('../'+fn, dir+'/1D/'+fn)
+
 
 
