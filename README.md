@@ -3,3 +3,4 @@
 
 1. No 1D reads in either directory.
 6.  87.49% alignment rate.
+7.  samtools calmd -e <reads> hg19.ref.fasta
