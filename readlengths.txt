@@ -1,0 +1,3 @@
+Longest passed 2D: >65fce8f3-abde-44f4-ba4d-47205023dce7_Basecall_2D_2d LabPC05_group2_4139_1_ch178_file10_strand_twodirections /Users/annebozack/Documents/group2/downloads/pass/LabPC05_group2_4139_1_ch178_file10_strand.fast5
+Length: 37338Longest failed 2D: >afb0c57b-29ae-405a-bcc8-29dfccc9a725_Basecall_2D_2d LabPC05_group2_4139_1_ch396_file117_strand_twodirections /Users/annebozack/Documents/group2/downloads/fail/LabPC05_group2_4139_1_ch396_file117_strand.fast5
+Length: 46703
