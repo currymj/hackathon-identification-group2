@@ -44,11 +44,9 @@ if __name__ == '__main__':
     with open(sys.argv[1]) as passfile, open(sys.argv[2]) as failfile:
         pass2d, pass1d = get_reads(passfile)
         fail2d, fail1d = get_reads(failfile)
-        num_1d_pass = len(pass1d)
-        num_1d_fail = len(fail1d)
+        #num_1d_pass = len(pass1d)
+        #num_1d_fail = len(fail1d)
         num_2d_pass = len(pass2d)
         num_2d_fail = len(fail2d)
-        print ("Passed: %d 2D reads; %d 1D reads; %.2f%% 2D" % (num_2d_pass,
-            num_1d_pass, 100.0 * num_2d_pass / (num_1d_pass+num_2d_pass)))
-        print ("Failed: %d 2D reads; %d 1D reads; %.2f%% 2D" % (num_2d_fail,
-            num_1d_fail, 100.0 * num_2d_fail / (num_1d_fail+num_2d_fail)))
+        print ("Passed: %d 2D reads" % num_2d_pass)
+        print ("Failed: %d 2D reads" % num_2d_fail)
