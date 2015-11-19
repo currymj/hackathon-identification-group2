@@ -7,7 +7,7 @@ import os
 
 path=sys.argv[1]
 
-file = open('readlengths.txt', 'w')
+file = open('Q5readlengths.txt', 'w')
 
 # Passed reads - 2D
 
