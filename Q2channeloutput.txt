@@ -1,0 +1,3 @@
+Average reads per channel: 86.4761904762
+Pore with most reads: 327
+Number of reads: 173
