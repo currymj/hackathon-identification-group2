@@ -1,6 +1,5 @@
 ###########################################################################
 # Number 5
-# Usage: (python) group2_report1_question5.py <BitTorrent Sync folder>
 ###########################################################################
 
 import sys
@@ -24,7 +23,7 @@ os.system('poretools winner --type 2D '+path+'downloads/fail/ >'+path+'downloads
 
 f = open(''+path+'downloads/fail/long2DFail.txt')
 lines = f.readlines()
-file.write('\nLongest failed 2D: ' + lines[0] + '\nLength: ' + str(len(lines[1])))
+file.write('\n\nLongest failed 2D: ' + lines[0] + '\nLength: ' + str(len(lines[1])))
 
 file.close()
 
