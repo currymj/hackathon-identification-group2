@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Usage: (python) q1.py <PASS FILE> <FAIL FILE>
+Usage: (python) group2_report1_question1.py <PASS FILE> <FAIL FILE>
 
 Reads a pair of input FASTQ file as processed by poretools and counts
 the number of 1D and 2D reads that were found in each, as well as the
