@@ -1,4 +1,4 @@
-all: q1 q3 q4 q5
+all: q1 q2 q3 q4 q5
 
 clean:
 	rm fail.fastq
