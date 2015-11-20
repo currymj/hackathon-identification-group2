@@ -1,5 +1,15 @@
 from pprint import pprint                                                                                                                                                 
 
+'''
+Note - we managed to extract the deletions out of the MD tag,
+but attempting to line up our MD and CIGAR fields with the actual
+read resulted in a misalignment - one field will say a match,
+and another will say mismatch, and the read could say '=' or anything
+else. We thus couldn't reconstruct the full reference and figure
+out our insertion distribution.
+'''
+
+
 CIGAR = 5
 SEQ = 9
 MD = 12
