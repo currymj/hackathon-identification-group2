@@ -1,0 +1,6 @@
+*.pyc
+*.fasta
+*.fas*
+*.fa
+*.sam
+*.bam
